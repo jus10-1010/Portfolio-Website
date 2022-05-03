@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHRIS SYSTEMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Century Gothic;
+    }
+
+    body{
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+    }
+
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 50px;
+        margin-right: 30px;
+    }
+
+    ul li{
+        display: inline-block;
+    }
+
+    ul li.active a{
+        color: rgb(221, 28, 28);
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: rgb(221, 221, 221);
+        font-weight: 700;
+        font-size: 18px;
+        padding: 5px 20px;
+        margin-right: 30px;
+    }
+
+    ul li a:hover{
+        color: rgb(221, 221, 221);
+        transition: 0.3s ease;
+        background-color: rgb(221, 28, 28);
+        border-radius: 3px;
+    }
+
+    .logo img{
+        float: left;
+        width: auto;
+        height: 70px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+
+    .image img{
+        float: right;
+        width: 850px;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        right: 5%;
+    }
+
+    .greet{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        color: rgb(221, 221, 221);
+        font-size: 32px;
+    }
+
+    .greet p{
+        color: rgb(221, 221, 221);
+        font-size: 16px;
+        font-weight: 900;
+        margin-top: 6px;
+    }
+
+    .greet a{
+        text-decoration: none;
+        color: rgb(221, 28, 28);
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .greet a:hover{
+        transition: 0.3s ease;
+        color: rgb(221, 221, 221);
+    }
+
+    .socials{
+        position: absolute;
+        top: 95%;
+        left: 19%;
+        transform: translate(-50%, -50%);
+    }
+    .socials .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 15px 15px;
+        color: rgb(221, 221, 221);
+    }
+
+    .socials .fa:hover {
+        color: rgb(221, 28, 28);
+    }
+</style>
+<body>
+        <div class="logo">
+            <a href="index.html"><img src="LOGO2.png"></a>
+        </div>
+
+        <ul>
+            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>    
+        </ul>
+
+        <div class="greet">
+            <h1><span style="font-size: 17px;">__   HELLO I'M CHRISTIAN SAYRE</span><br>
+            I build and design concepts.</h1>
+            <p>I am an ASIAN COLLEGE student and aspiring computer engineer.</p>
+            <a href="about.html">learn more ></a>
+            <br><br><br><br><br>
+            <h1>My latest design projects.</h1>
+            <a href="projects.html">learn more ></a>
+        </div>
+
+        <div class="image">
+            <img src="main.png">
+        </div>
+
+        <div class="socials">
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.google.com" class="fa fa-google"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+            <a href="https://www.reddit.com" class="fa fa-reddit"></a>
+            <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+        </div>
+</body>
+</html>
